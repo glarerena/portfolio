@@ -1,0 +1,75 @@
+.po_items_ho {
+    column-width: 15em;
+    -moz-column-width: 15em;
+    -webkit-column-width: 15em;
+    column-gap: 4rem;
+    -moz-column-gap: 4rem;
+    -webkit-column-gap: 4rem;
+}
+
+.po_item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+    position: relative;
+    background: var(--secondary-color);
+    padding: 6px;
+    border: 1px solid var(--secondary-color);
+    transition: 0.3s ease;
+    font-size: 0; /* Ensure that content inside is not affected */
+    height: 300px; /* Fixed height for all items */
+    overflow: hidden; /* Ensure images are clipped to container */
+}
+
+.po_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the container without distortion */
+}
+
+.po_item .content {
+    position: absolute;
+    top: 0; /* Adjusted to cover entire item */
+    left: 0; /* Adjusted to cover entire item */
+    background: var(--overlay-color);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 10px; /* Add some padding to make sure the content isn't touching edges */
+    box-sizing: border-box; /* Ensure padding is included in height/width calculations */
+    font-size: 1rem; /* Ensure the text is visible */
+}
+
+.po_item:hover {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.po_item:hover .content {
+    opacity: 1; /* Make sure opacity is set to 1 to show content on hover */
+}
+
+.po_item .content p {
+    color: white; /* Set a text color to ensure it is visible */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.po_item .content a {
+    background: var(--bg-color);
+    border: solid 1px var(--text-color);
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--text-color); /* Ensure link color is visible */
+}
+
+.po_item .content a:hover {
+    text-decoration: none;
+}
