@@ -5,14 +5,16 @@ import mondrianPicImage from './assets/images/mondrian.png';
 import colorFlipperImage from './assets/images/color_flipper.png';
 import romanNumImage from './assets/images/roman_converter.png';
 import renaImage from './assets/images/rena.jpg'
+import cleanSlateImage from './assets/images/clean_slate.png';
+import devinImage from './assets/images/devin.png';
 const logotext = "RENA";
 const meta = {
     title: "Rena Glare",
-    description: "I’m Rena Glare, a Full Stack Developer student.",
+    description: "I'm Rena Glare, a Full Stack Developer student.",
 };
 
 const introdata = {
-    title: "I’m Rena Glare",
+    title: "I'm Rena Glare",
     animated: {
         first: "I love coding. 🩷 💙 ",
         second: "I love all things tech.",
@@ -85,19 +87,19 @@ const dataportfolio = [{
         link: "https://glarerena.github.io/simon_says_game/",
     },
     {
+        img: cleanSlateImage,
+        description: "A professional landing page for Clean Slate Experts, a premier pressure washing business offering residential and commercial cleaning services.",
+        link: "https://www.cleanslate-experts.com/",
+    },
+    {
         img: drumKitImage,
         description: "An interactive drum kit with responsive sound and dynamic visual feedback using modern web technologies.",
-        link: "https://glarerena.github.io/drum_kit/",
+        link: "https://drum-kit-one-theta.vercel.app/",
     },
     {
-        img: diceGameImage,
-        description: "A web-based dice game where a human competes against a computer opponent, utilizing HTML, CSS, and JavaScript for interactive gameplay.",
-        link: "https://glarerena.github.io/dice_game/",
-    },
-    {
-        img: mondrianPicImage,
-        description: "A static Mondrian-inspired project that leverages Flexbox and Grid layouts to create a visually striking design.",
-        link: "https://github.com/glarerena/Mondrian-Project",
+        img: devinImage,
+        description: "A portfolio website for a graphic designer showcasing their work in anime-inspired designs, merchandise, and therapeutic art.",
+        link: "https://www.designsbydevin.art/",
     },
     {
         img: colorFlipperImage,
@@ -105,11 +107,10 @@ const dataportfolio = [{
         link: "https://glarerena.github.io/color_flipper/",
     },
     {
-        img: romanNumImage ,
-        description: "A web-based Roman numeral converter that translates between Roman and decimal numbers with ease using a straightforward and intuitive interface.",
-        link: "https://glarerena.github.io/roman_converter/",
+        img: diceGameImage,
+        description: "A web-based dice game where a human competes against a computer opponent, utilizing HTML, CSS, and JavaScript for interactive gameplay.",
+        link: "https://glarerena.github.io/dice_game/",
     },
-
     {
         img: "https://picsum.photos/400/600/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
