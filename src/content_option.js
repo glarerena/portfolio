@@ -2,7 +2,7 @@ import drumKitImage from './assets/images/drum_kit.png';
 import simonSaysImage from './assets/images/simon_says.png';
 import diceGameImage from './assets/images/dice_game.png';
 import mondrianPicImage from './assets/images/mondrian.png';
-import colorFlipperImage from './assets/images/color_flipper.png';
+import safeSpaceImage from './assets/images/safe_space.png';
 import romanNumImage from './assets/images/roman_converter.png';
 import renaImage from './assets/images/rena.jpg'
 import cleanSlateImage from './assets/images/clean_slate.png';
@@ -10,7 +10,7 @@ import devinImage from './assets/images/devin.png';
 const logotext = "RENA";
 const meta = {
     title: "Rena Glare",
-    description: "I'm Rena Glare, a Full Stack Developer student.",
+    description: "I'm Rena Glare, a Software Engineer and Columbia University graduate.",
 };
 
 const introdata = {
@@ -20,13 +20,13 @@ const introdata = {
         second: "I love all things tech.",
         third: "Movies, music and animals are my loves too.",
     },
-    description: "A full time student, learning to code, and love life together in harmony.",
+    description: "A Software Engineer and Columbia University graduate, passionate about creating innovative solutions through code.",
     your_img_url: renaImage,
 };
 
 const dataabout = {
     title: "A little more about me.",
-    aboutme: "I am a passionate web developer with a love for cars, coding, music and movies. My diverse interests keep me in touch with the ever evolving world and technology we have today.",
+    aboutme: "I am a Software Engineer and Columbia University graduate with a love for cars, coding, music and movies. My diverse interests keep me in touch with the ever evolving world and technology we have today.",
 };
 const worktimeline = [{
         jobtitle: "Persevere",
@@ -102,9 +102,9 @@ const dataportfolio = [{
         link: "https://www.designsbydevin.art/",
     },
     {
-        img: colorFlipperImage,
-        description: "A color flipper web application built with vanilla JavaScript, HTML, and CSS that let users toggle betweeen simple and hexadecimal color codes.",
-        link: "https://glarerena.github.io/color_flipper/",
+        img: safeSpaceImage,
+        description: "A comprehensive website for 53205 Safe Space, a South Carolina-based organization dedicated to preventing Sudden Infant Death Syndrome (SIDS) through safe sleep education, maternal health programs, and community outreach.",
+        link: "https://www.contact53205.org/",
     },
     {
         img: diceGameImage,
